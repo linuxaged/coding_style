@@ -1,5 +1,5 @@
 # coding_style
 
-## [Common](common.md)
+* ## [Common](common.md)
 
-## [C++](cpp.md)
+* ## [C++](cpp.md)
