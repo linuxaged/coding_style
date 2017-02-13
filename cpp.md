@@ -1,6 +1,6 @@
 # Files
 
-C++ 头文件使用 .hh 后缀，以区分 C 头文件
+C++ 头文件使用 .hpp 后缀，以区分 C 头文件
 
         source.cpp // c++ 实现
         source.hpp // c++ 接口
