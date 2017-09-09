@@ -76,14 +76,14 @@ C++ 头文件使用 .hpp 后缀，以区分 C 头文件
 
     * `&` , `*` 紧跟类型
 
-        T& operator[](size_t); // good
-        T &operator[](size_t); // bad
-        T & operator[](size_t); // bad
+            T& operator[](size_t); // good
+            T &operator[](size_t); // bad
+            T & operator[](size_t); // bad
 
     * 只把同类型的声明放在同一行
 
-        int a, b, c;             // ok
-        int a = 7; char* p = 28; // bad
+            int a, b, c;             // ok
+            int a = 7; char* p = 28; // bad
 
 # Class
 
