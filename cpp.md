@@ -49,7 +49,20 @@ C++ 头文件使用 .hpp 后缀，以区分 C 头文件
 
 * 类型实例使用骆驼(Camel)命名法：标识符的首字母小写，而每个后面连接的单词的首字母都大写。
 
-        MyClass myClass;
+        * 生命周期大于一个函数体：帕斯卡命名法
+
+            class MyClass
+            {
+                Vector3f    Postion;
+                Quaternion  Rotation;
+            }
+
+        * 生命周期小于等于一个函数体：骆驼命名法
+
+            void SetPostion( Vector3f postion )
+            {
+                Vector3f temp;
+            }
 
 
 * 顾名思义
