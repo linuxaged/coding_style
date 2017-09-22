@@ -61,7 +61,9 @@ C++ 头文件使用 .hpp 后缀，以区分 C 头文件
 
             void SetPostion( Vector3f postion )
             {
-                Vector3f temp;
+                ...
+                Vector3f currentPosition;
+                ...
             }
 
 
